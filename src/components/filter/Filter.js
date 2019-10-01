@@ -22,7 +22,7 @@ class Filter extends Component {
                     </div>
                 </div>
                
-                <LazyLoad><BackgroundWithText id="filterBg" backgroundImage={BackgroundImage} title="Filter" shadowTitle="Filter" /></LazyLoad>
+                <BackgroundWithText id="filterBg" backgroundImage={BackgroundImage} title="Filter" shadowTitle="Filter" />
                 <div className="content-area">
                 <div className="vimory-animation animation-type-4 top-right mb-none">
                     <img className="rectangle" src={rectangle} alt={alt} />

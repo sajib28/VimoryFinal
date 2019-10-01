@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazyload';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,28 +23,29 @@ class FrameSlider extends Component {
             arrows: false
         };
         return (
+            <LazyLoad height={400}>
+                <Slider {...settings}>
+                    <div>
+                        <img src={frame1} alt={alt} />
+                    </div>
+                    <div>
 
-            <Slider {...settings}>
-                <div>
-                    <img src={frame1} alt={alt} />
-                </div>
-                <div>
+                        <img src={frame2} alt={alt} />
+                    </div>
+                    <div>
 
-                    <img src={frame2} alt={alt} />
-                </div>
-                <div>
+                        <img src={frame3} alt={alt} />
+                    </div>
+                    <div>
 
-                    <img src={frame3} alt={alt} />
-                </div>
-                <div>
+                        <img src={frame4} alt={alt} />
+                    </div>
+                    <div>
 
-                    <img src={frame4} alt={alt} />
-                </div>
-                <div>
-
-                    <img src={frame5} alt={alt} />
-                </div>
-            </Slider>
+                        <img src={frame5} alt={alt} />
+                    </div>
+                </Slider>
+            </LazyLoad>
         );
 
     }

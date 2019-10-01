@@ -51,9 +51,9 @@ class GetToday extends Component {
                                     {/* End animation */}
                                     <img className="frame-get-it-today" src={mobileFrame} alt={alt} />
                                     <div className="mobile-frame-content allDevice">
-                                        <img class="onlyMobile" src={mobileFrameGetToday} alt={alt} />
+                                    <LazyLoad height={641} offset={300}><img className="onlyMobile" src={mobileFrameGetToday} alt={alt} /></LazyLoad>
                                         <div className="video-template">
-                                            <LazyLoad>
+                                            <LazyLoad height={641} offset={300}>
                                                 <video autoPlay loop muted playsInline>
                                                     {/* <source src={videowebm} preload="auto" type="video/webm" /> */}
                                                     <source src={videomp4} type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />

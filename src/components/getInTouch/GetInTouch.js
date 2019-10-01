@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
 import $ from 'jquery';
 import BackgroundImage from '../../assets/img/get-in-touch-bg.jpg';
 import appleStore from '../../assets/img/apple-app-store.png';
@@ -37,7 +36,7 @@ class GetInTouch extends Component {
                
                 <section id="getInTouch" className="photo-with-content" style={{ backgroundImage: `url(${BackgroundImage})` }}>
                     <div className="pic-overlay"></div>
-                    <LazyLoad>
+                   
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12">
@@ -76,7 +75,7 @@ class GetInTouch extends Component {
                             <div className="col-md-7 col-lg-7 order-md-1 order-lg-1">
                                 <div className="contact-info text-center">
                                     <h3 className="wow fadeInUp" data-wow-delay="0.4s" animation-delay="0.4s">Contact Us</h3>
-                                    <LazyLoad><img className="wow fadeInUp" data-wow-delay="0.6s" animation-delay="0.6s" src={appilianLogo} alt="Appilian Logo" /></LazyLoad>
+                                    <img className="wow fadeInUp" data-wow-delay="0.6s" animation-delay="0.6s" src={appilianLogo} alt="Appilian Logo" />
                                     <div className="weblink wow fadeInUp" data-wow-delay="0.8s" animation-delay="0.8s">
                                         <p>B6, Plot-35, Sonargaon Janapath Road<br />
                                             Sector-07, Uttara, Dhaka-1230,  Bangladesh</p>
@@ -86,15 +85,15 @@ class GetInTouch extends Component {
 
                                     </div>
                                     <ul className="apps-logo wow fadeInUp" data-wow-delay="0.8s" animation-delay="0.8s">
-                                        <li><a rel="noopener noreferrer" href="https://apps.apple.com/us/app/vimory-photo-video-maker/id1359573092" target="_blank"><LazyLoad><img src={appleStore} alt="Vimory Apple Store" /></LazyLoad></a></li>
-                                        <li><a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.appilian.vimory" target="_blank"><LazyLoad><img src={googlePlay} alt="Vimory Google Play Store" /></LazyLoad></a></li>
+                                        <li><a rel="noopener noreferrer" href="https://apps.apple.com/us/app/vimory-photo-video-maker/id1359573092" target="_blank"><img src={appleStore} alt="Vimory Apple Store" /></a></li>
+                                        <li><a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.appilian.vimory" target="_blank"><img src={googlePlay} alt="Vimory Google Play Store" /></a></li>
                                     </ul>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                    </LazyLoad>
+                   
                 </section>
                 <Footer />
             </div>

@@ -15,7 +15,7 @@ import Filter4 from '../../assets/img/filter/moon.jpg';
 import Filter5 from '../../assets/img/filter/Duotone.jpg';
 
 class FilterTab extends Component {
-  
+
     render() {
         let alt = "Vimory is designed to be your personal photo to video or slideshow stdio to make you a video superstar"
         let title = "Filter";
@@ -31,7 +31,7 @@ class FilterTab extends Component {
                             <div className="mobile-frame  wow fadeInUp" animation-delay="0.4s" data-wow-delay="0.4s">
                                 <img src={mobileFrame} alt={alt} />
                                 <div className="mobile-frame-content">
-                                <LazyLoad height={200} offset={100}><img src={Filter1} alt={alt} /></LazyLoad>
+                                    <img src={Filter1} alt={alt} />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ class FilterTab extends Component {
                             <div className="mobile-frame">
                                 <img src={mobileFrame} alt={alt} />
                                 <div className="mobile-frame-content">
-                                <LazyLoad height={200} offset={100}><img src={Filter2} alt={alt} /></LazyLoad>
+                                    <img src={Filter2} alt={alt} />
                                 </div>
                             </div>
                         </div>
@@ -57,10 +57,24 @@ class FilterTab extends Component {
                         </TabPanel>
                         <TabPanel>
                             <div className="col-lg-5 mb-none">
+                                <div className="mobile-frame">
+                                    <img src={mobileFrame} alt={alt} />
+                                    <div className="mobile-frame-content">
+                                        <img src={Filter3} alt={alt} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-7 mb-none">
+                                <h3>{title}</h3>
+                                <p>{description}</p>
+
+                            </div>
+                        </TabPanel>
+                        <TabPanel><div className="col-lg-5 mb-none">
                             <div className="mobile-frame">
                                 <img src={mobileFrame} alt={alt} />
                                 <div className="mobile-frame-content">
-                                <LazyLoad height={200} offset={100}><img src={Filter3} alt={alt} /></LazyLoad>
+                                    <img src={Filter4} alt={alt} />
                                 </div>
                             </div>
                         </div>
@@ -74,21 +88,7 @@ class FilterTab extends Component {
                             <div className="mobile-frame">
                                 <img src={mobileFrame} alt={alt} />
                                 <div className="mobile-frame-content">
-                                <LazyLoad height={200} offset={100}><img src={Filter4} alt={alt} /></LazyLoad>
-                                </div>
-                            </div>
-                        </div>
-                            <div className="col-lg-7 mb-none">
-                                <h3>{title}</h3>
-                                <p>{description}</p>
-
-                            </div>
-                        </TabPanel>
-                        <TabPanel><div className="col-lg-5 mb-none">
-                            <div className="mobile-frame">
-                                <img src={mobileFrame} alt={alt} />
-                                <div className="mobile-frame-content">
-                                <LazyLoad height={200} offset={100}><img src={Filter5} alt={alt} /></LazyLoad>
+                                    <img src={Filter5} alt={alt} />
                                 </div>
                             </div>
                         </div>
@@ -101,13 +101,13 @@ class FilterTab extends Component {
                         {/* End Tab content */}
                         {/* Tab Icons */}
                         <TabList>
-                            <Tab><div id="filter-1" className="img-hover"><LazyLoad height={200} offset={100}><img src={tabIconImg1} alt={alt} /></LazyLoad></div><span>Perpetua</span></Tab>
-                            <Tab><div id="filter-2" className="img-hover"><LazyLoad height={200} offset={100}><img src={tabIconImg2} alt={alt} /></LazyLoad></div><span>Tring</span></Tab>
-                            <Tab><div id="filter-3" className="img-hover"><LazyLoad height={200} offset={100}><img src={tabIconImg3} alt={alt} /></LazyLoad></div><span>Hue</span></Tab>
-                            <Tab><div id="filter-4" className="img-hover"><LazyLoad height={200} offset={100}><img src={tabIconImg4} alt={alt} /></LazyLoad></div><span>Moon</span></Tab>
-                            <Tab><div id="filter-5" className="img-hover"><LazyLoad height={200} offset={100}><img src={tabIconImg5} alt={alt} /></LazyLoad></div><span>Sunday</span></Tab>
+                            <Tab><div id="filter-1" className="img-hover"><img src={tabIconImg1} alt={alt} /></div><span>Perpetua</span></Tab>
+                            <Tab><div id="filter-2" className="img-hover"><img src={tabIconImg2} alt={alt} /></div><span>Tring</span></Tab>
+                            <Tab><div id="filter-3" className="img-hover"><img src={tabIconImg3} alt={alt} /></div><span>Hue</span></Tab>
+                            <Tab><div id="filter-4" className="img-hover"><img src={tabIconImg4} alt={alt} /></div><span>Moon</span></Tab>
+                            <Tab><div id="filter-5" className="img-hover"><img src={tabIconImg5} alt={alt} /></div><span>Sunday</span></Tab>
                         </TabList>
-                          {/*End Tab Icons */}
+                        {/*End Tab Icons */}
                     </div>
                 </Tabs>
             </div>

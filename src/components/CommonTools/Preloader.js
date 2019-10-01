@@ -19,13 +19,13 @@ class Preloader extends Component {
     }
     render() {
         return (
-            <div class="preloader">
-                <div class="sk-wave">
-                    <div class="sk-rect sk-rect1"></div>
-                    <div class="sk-rect sk-rect2"></div>
-                    <div class="sk-rect sk-rect3"></div>
-                    <div class="sk-rect sk-rect4"></div>
-                    <div class="sk-rect sk-rect5"></div>
+            <div className="preloader">
+                <div className="sk-wave">
+                    <div className="sk-rect sk-rect1"></div>
+                    <div className="sk-rect sk-rect2"></div>
+                    <div className="sk-rect sk-rect3"></div>
+                    <div className="sk-rect sk-rect4"></div>
+                    <div className="sk-rect sk-rect5"></div>
                 </div>
             </div>
         );
