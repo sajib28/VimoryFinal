@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
+// import LazyLoad from 'react-lazyload';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import mobilePhotoEditPic from '../../assets/img/photo_edit-mobile.jpg';

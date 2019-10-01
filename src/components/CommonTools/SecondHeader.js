@@ -40,7 +40,7 @@ class SecondHeader extends Component {
         let introSection = document.getElementById('intro').clientHeight;
         let appFeature = document.getElementById('appFeature').clientHeight;
         let secondMenu = document.getElementById('secondMenu').clientHeight;
-        // let template = document.getElementById('template').clientHeight;
+        let template = document.getElementById('template').clientHeight;
         let photoEdit = document.getElementById('photoEdit').clientHeight;
         let slide = document.getElementById('slide').clientHeight;
         let effect = document.getElementById('effect').clientHeight;
@@ -61,7 +61,7 @@ class SecondHeader extends Component {
                         scrollingLock: true
 
                     });
-                    if (window.scrollY === introSection + appFeature + secondMenu +photoEdit + slide + effect + frame+filter) {
+                    if (window.scrollY >= introSection + appFeature + secondMenu+ template+photoEdit + slide + effect + frame+filter) {
                         // alert("test");
                         this.setState({
                             scrollingLock: false

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
 import BackgroundWithText from '../CommonTools/BackgroundWithText';
 import AnimationSlider from './AnimationSlider';
 import BackgroundImage from '../../assets/img/template-bg.jpg';

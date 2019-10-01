@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
 import './assets/css/bootstrap.min.css';
 import './assets/css/solar.css';
 import './assets/css/animate.min.css';
@@ -38,52 +37,24 @@ class App extends Component {
   render() {
 
     return (
-
       <div className="App">
         <Preloader />
         <SidebarMenu />
         <Header />
         <Welcome />
-        <LazyLoad>
-          <AppFeature />
-        </LazyLoad>
-        <LazyLoad>
-          <SecondHeader />
-        </LazyLoad>
-        <LazyLoad>
-          <Templates />
-        </LazyLoad>
-        <LazyLoad>
-          <PhotoEdit />
-        </LazyLoad>
-        <LazyLoad>
-          <SlideSection />
-        </LazyLoad>
-        <LazyLoad>
-          <Effect />
-        </LazyLoad>
-        <LazyLoad>
-          <FrameSection />
-        </LazyLoad>
-        <LazyLoad>
-          <Filter />
-        </LazyLoad>
-       
-          <GetToday />
-        
-        <LazyLoad>
-          <ClientReview />
-        </LazyLoad>
-        <LazyLoad>
-          <Pricing />
-        </LazyLoad>
-        <LazyLoad>
-          <Faq />
-        </LazyLoad>
-        <LazyLoad>
-          <GetInTouch />
-        </LazyLoad>
-
+        <AppFeature />
+        <SecondHeader />
+        <Templates />
+        <PhotoEdit />
+        <SlideSection />
+        <Effect />
+        <FrameSection />
+        <Filter />
+        <GetToday />
+        <ClientReview />
+        <Pricing />
+        <Faq />
+        <GetInTouch />
       </div>
     );
   }

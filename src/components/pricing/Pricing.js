@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LazyLoad from 'react-lazyload';
+// import LazyLoad from 'react-lazyload';
 import BackgroundImage from '../../assets/img/pricing-bg.jpg';
 import priceImg1 from '../../assets/img/price-img-1.png';
 import priceImg2 from '../../assets/img/price-img-2.png';
