@@ -9,31 +9,33 @@ class Slide extends Component {
     render() {
         return (
             <section id="slide">
-                 <LazyLoad><BackgroundWithText id="SlideBg" backgroundImage={BackgroundImage} title="Slide" shadowTitle="Slide" /></LazyLoad>
+                <BackgroundWithText id="SlideBg" backgroundImage={BackgroundImage} title="Slide" shadowTitle="Slide" />
                 <div className="content-area">
-                <div className="circle-position two-circle right-circle mb-none">
-                    <div className="circle-wrapper">
-                        <div className="orbit circle-spin">
-                            <div className="first-circle">
-                                <div className="outer-orbit-small">
-                                    <div className="small"></div>
+                    <div className="circle-position two-circle right-circle mb-none">
+                        <div className="circle-wrapper">
+                            <div className="orbit circle-spin">
+                                <div className="first-circle">
+                                    <div className="outer-orbit-small">
+                                        <div className="small"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="circle-position one-circle top-left-circle mb-none">
-                    <div className="circle-wrapper">
-                        <div className="orbit circle-spin">
-                            <div className="first-circle"></div>
+                    <div className="circle-position one-circle top-left-circle mb-none">
+                        <div className="circle-wrapper">
+                            <div className="orbit circle-spin">
+                                <div className="first-circle"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
                     <div className="container">
                         <div className="row">
                             <div className="photo-content">
-                                <SlideTab />
+                                <LazyLoad>
+                                    <SlideTab />
+                                </LazyLoad>
                             </div>
                         </div>
                     </div>

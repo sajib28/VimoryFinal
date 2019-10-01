@@ -11,7 +11,7 @@ class PhotoEdit extends Component {
         let alt ="Vimory is designed to be your personal photo to video or slideshow stdio to make you a video superstar";
         return (
             <section id="photoEdit">
-                <LazyLoad><BackgroundWithText id="photoEditBg" backgroundImage={BackgroundImage} title="Photo Edit" shadowTitle="Photo Edit" /></LazyLoad>
+                <BackgroundWithText id="photoEditBg" backgroundImage={BackgroundImage} title="Photo Edit" shadowTitle="Photo Edit" />
                 <div className="content-area">
                     <div className="vimory-animation animation-type-3 top-left mb-none">
                         <div className="vimory-animated-circle"></div>
@@ -29,7 +29,9 @@ class PhotoEdit extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="photo-content">
+                            <LazyLoad>
                                 <PhotoEditTab />
+                                </LazyLoad>
                             </div>
                         </div>
                     </div>

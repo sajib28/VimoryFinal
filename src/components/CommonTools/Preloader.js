@@ -9,12 +9,13 @@ class Preloader extends Component {
             setTimeout(function () {
                 $('.preloader').fadeOut();
             }, 1000);
+            if ($(window).width() <= 991) {
+                $("video").remove();
+            }
         });
         // End Preloader
         // video hide From Mobile
-        if ($(window).width() <= 991) {
-            $("video").remove();
-        }
+       
     }
     render() {
         return (

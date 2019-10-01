@@ -8,9 +8,8 @@ class Templates extends Component {
         return (
             // Start Template Section
             <section id="template">
-                 <LazyLoad>
                 <BackgroundWithText id ="templateBg" backgroundImage={BackgroundImage} title="Templates" shadowTitle="Templates"/>
-                </LazyLoad>
+                
                 <AnimationSlider/>
             </section>
             // End Template Section

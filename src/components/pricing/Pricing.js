@@ -8,7 +8,7 @@ class Pricing extends Component {
     render() {
         let alt ="Vimory is designed to be your personal photo to video or slideshow stdio to make you a video superstar";
         return (
-            <LazyLoad>
+            
             <section id="pricing" className="photo-with-content" style={{ backgroundImage: `url(${BackgroundImage})`}}>
                 <span className="shadow-text  wow zoomIn" data-wow-delay="0.4s" animation-delay="0.4s">Our Pricing Plan</span>
                 <div className="pic-overlay"></div>
@@ -49,7 +49,6 @@ class Pricing extends Component {
                     </div>
                 </div>
             </section>
-            </LazyLoad>
         )
     }
 }

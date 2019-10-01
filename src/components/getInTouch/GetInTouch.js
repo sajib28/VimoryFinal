@@ -34,9 +34,10 @@ class GetInTouch extends Component {
     render() {
         return (
             <div>
-                <LazyLoad>
+               
                 <section id="getInTouch" className="photo-with-content" style={{ backgroundImage: `url(${BackgroundImage})` }}>
                     <div className="pic-overlay"></div>
+                    <LazyLoad>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-lg-12">
@@ -93,8 +94,8 @@ class GetInTouch extends Component {
 
                         </div>
                     </div>
+                    </LazyLoad>
                 </section>
-                </LazyLoad>
                 <Footer />
             </div>
         )

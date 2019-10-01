@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LazyLoad from 'react-lazyload';
+import $ from 'jquery';
 import BackgroundImage from '../../assets/img/get-today-bg.jpg';
 import mobileFrameGetToday from '../../assets/img/get_in-mobile.jpg';
 import appleStore from '../../assets/img/apple-app-store.png';
@@ -12,12 +13,17 @@ import triangleSmall from '../../assets/img/icon/triangle-small.png';
 import redBig from '../../assets/img/icon/red_round2.png';
 import rectangleBlue from '../../assets/img/icon/rectangleblue.png';
 class GetToday extends Component {
+    componentDidMount() {
+        if ($(window).width() <= 991) {
+            $("video").hide();
+        }
+    }
     render() {
         let alt = "Vimory is designed to be your personal photo to video or slideshow stdio to make you a video superstar";
         return (
 
             // Start Get Today Section 
-            
+
             <section id="getToday" className="back-img" style={{ backgroundImage: `url(${BackgroundImage})` }}>
                 <span className="shadow-text wow zoomIn" data-wow-delay="0.4s" animation-delay="0.4s">Get it Today</span>
                 <div className="pic-overlay"></div>
@@ -45,13 +51,13 @@ class GetToday extends Component {
                                     {/* End animation */}
                                     <img className="frame-get-it-today" src={mobileFrame} alt={alt} />
                                     <div className="mobile-frame-content allDevice">
-                                    <img class="onlyMobile" src={mobileFrameGetToday} alt={alt} />
+                                        <img class="onlyMobile" src={mobileFrameGetToday} alt={alt} />
                                         <div className="video-template">
-                                        <LazyLoad>
-                                            <video autoPlay loop muted playsInline>
-                                                {/* <source src={videowebm} preload="auto" type="video/webm" /> */}
-                                               <source src={videomp4} type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
-                                            </video>
+                                            <LazyLoad>
+                                                <video autoPlay loop muted playsInline>
+                                                    {/* <source src={videowebm} preload="auto" type="video/webm" /> */}
+                                                    <source src={videomp4} type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
+                                                </video>
                                             </LazyLoad>
                                             {/* <Player muted autoplay loop>
                                         <source src={videowebm} type="video/webm"/>

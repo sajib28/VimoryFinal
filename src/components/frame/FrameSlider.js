@@ -26,29 +26,23 @@ class FrameSlider extends Component {
 
             <Slider {...settings}>
                 <div>
-                    <LazyLoad height={200} offset={100}>
-                        <img src={frame1} alt={alt} />
-                    </LazyLoad>
+                    <img src={frame1} alt={alt} />
                 </div>
                 <div>
-                    <LazyLoad height={200} offset={100}>
-                        <img src={frame2} alt={alt} />
-                    </LazyLoad>
+
+                    <img src={frame2} alt={alt} />
                 </div>
                 <div>
-                    <LazyLoad height={200} offset={100}>
-                        <img src={frame3} alt={alt} />
-                    </LazyLoad>
+
+                    <img src={frame3} alt={alt} />
                 </div>
                 <div>
-                    <LazyLoad height={200} offset={100}>
-                        <img src={frame4} alt={alt} />
-                    </LazyLoad>
+
+                    <img src={frame4} alt={alt} />
                 </div>
                 <div>
-                    <LazyLoad height={200} offset={100}>
-                        <img src={frame5} alt={alt} />
-                    </LazyLoad>
+
+                    <img src={frame5} alt={alt} />
                 </div>
             </Slider>
         );

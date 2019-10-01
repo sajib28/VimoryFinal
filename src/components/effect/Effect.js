@@ -15,8 +15,10 @@ class Effect extends Component {
         let description = "Vimory grasps the sense of your own expectations and has a variety of Particle Effects for you to choose to make your video more lucrative. We've created lots of particle effects so you can show off what you can do with your photos.";
         return (
             // Start Effect Section
+            
             <section id="effect">
-                <LazyLoad><BackgroundWithText id="effectBg" backgroundImage={BackgroundImage} title="Effect" shadowTitle="Effect" /></LazyLoad>
+                <BackgroundWithText id="effectBg" backgroundImage={BackgroundImage} title="Effect" shadowTitle="Effect" />
+                <LazyLoad>
                 <div className="content-area">
                     <div className="circle-position two-circle top-circle-left mb-none">
                         <div className="circle-wrapper">
@@ -42,14 +44,14 @@ class Effect extends Component {
                                     <div className="mobile-frame wow fadeInUp" animation-delay="0.4s" data-wow-delay="0.4s">
                                         <img src={mobileFrame} alt={alt} />
                                         <div className="mobile-frame-content allDevice">
-                                        <LazyLoad><img class="onlyMobile" src={mobileEffect} alt={alt} /></LazyLoad>
+                                        <img class="onlyMobile" src={mobileEffect} alt={alt} />
                                             <div className="video-template">
-                                            <LazyLoad>
+                                           
                                                 <video autoPlay loop muted playsInline>
                                                     {/* <source src={EffectVideoweb} preload="auto" type="video/webm" /> */}
                                                     <source src={EffectVideo} preload="auto" type="video/mp4" />
                                                 </video>
-                                                </LazyLoad>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -62,7 +64,7 @@ class Effect extends Component {
                         </div>
                     </div>
                 </div>
-
+                </LazyLoad>
             </section>
             // End Effect Section
         );
