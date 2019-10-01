@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.333" height="56.333" viewBox="0 0 56.333 56.333">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #030303;
+      }
+    </style>
+  </defs>
+  <g id="Group_2054" data-name="Group 2054" transform="translate(-6955.667 -1453.667)">
+    <g id="Group_2007" data-name="Group 2007" transform="translate(6955.667 1453.667)">
+      <path id="Path_1739" data-name="Path 1739" class="cls-1" d="M56.333,56.333H0V0H56.333ZM1.352,54.981H54.981V1.352H1.352Z"/>
+      <g id="Group_2006" data-name="Group 2006" transform="translate(8.788 8.788)">
+        <path id="Path_1740" data-name="Path 1740" class="cls-2" d="M26.489,14.04h-2.7V6.6H16.8V3.9h9.689Z" transform="translate(12.268 -3.9)"/>
+        <path id="Path_1741" data-name="Path 1741" class="cls-2" d="M13.364,26.113H3.9V17.1H6.6v6.309h6.76Z" transform="translate(-3.9 12.644)"/>
+        <path id="Path_1742" data-name="Path 1742" class="cls-2" d="M6.6,14.04H3.9V3.9h9.464V6.6H6.6Z" transform="translate(-3.9 -3.9)"/>
+        <path id="Path_1743" data-name="Path 1743" class="cls-2" d="M26.489,26.113H16.8v-2.7h6.985V17.1h2.7Z" transform="translate(12.268 12.644)"/>
+        <path id="Path_1744" data-name="Path 1744" class="cls-2" d="M17.388,26.376A8.8,8.8,0,0,1,8.6,17.588,8.948,8.948,0,0,1,17.388,8.8a8.948,8.948,0,0,1,8.788,8.788A8.8,8.8,0,0,1,17.388,26.376Zm0-14.872a6.084,6.084,0,1,0,6.084,6.084A6.059,6.059,0,0,0,17.388,11.5Z" transform="translate(1.991 2.241)"/>
+      </g>
+    </g>
+  </g>
+</svg>

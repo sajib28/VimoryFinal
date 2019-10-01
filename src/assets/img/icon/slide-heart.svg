@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.439" height="29.943" viewBox="0 0 33.439 29.943">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_2107" data-name="Group 2107" transform="translate(-2027.646 -7309.998)">
+    <g id="Group_2101" data-name="Group 2101" transform="translate(2028.646 7311)">
+      <path id="Path_21981" data-name="Path 21981" class="cls-1" d="M957.534,2411.328a8.215,8.215,0,0,0-8.942-7.78c-4.113.278-6.792,4.474-6.792,4.474s-2.747-4.1-6.865-4.24a8.391,8.391,0,0,0-8.81,8.085c-.212,4.3,2.7,8.117,5.056,10.707a52.684,52.684,0,0,0,10.812,8.723,54.094,54.094,0,0,0,10.666-9.092C954.965,2419.536,957.818,2415.615,957.534,2411.328Z" transform="translate(-926.114 -2403.527)"/>
+    </g>
+  </g>
+</svg>

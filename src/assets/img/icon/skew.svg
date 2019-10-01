@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <g id="skew" transform="translate(-1332 -6680)">
+    <g id="Group_2144" data-name="Group 2144">
+      <g id="Group_2143" data-name="Group 2143" transform="translate(0 -3)">
+        <g id="Rectangle_1403" data-name="Rectangle 1403" transform="translate(1332 6683)" fill="#fff" stroke="#aeaeae" stroke-width="1.2">
+          <rect width="38" height="38" stroke="none"/>
+          <rect x="0.6" y="0.6" width="36.8" height="36.8" fill="none"/>
+        </g>
+        <g id="Rectangle_1402" data-name="Rectangle 1402" transform="translate(1336 6687)" fill="#fff" stroke="#9a9a9a" stroke-width="1.2">
+          <rect width="30" height="30" stroke="none"/>
+          <rect x="0.6" y="0.6" width="28.8" height="28.8" fill="none"/>
+        </g>
+        <g id="Rectangle_1401" data-name="Rectangle 1401" transform="translate(1341 6692)" fill="#fff" stroke="#1a1a1a" stroke-width="1.3" opacity="0.6">
+          <rect width="20" height="20" stroke="none"/>
+          <rect x="0.65" y="0.65" width="18.7" height="18.7" fill="none"/>
+        </g>
+        <g id="Rectangle_1400" data-name="Rectangle 1400" transform="translate(1346 6697)" fill="#fff" stroke="#000" stroke-width="1.5">
+          <rect width="10" height="10" stroke="none"/>
+          <rect x="0.75" y="0.75" width="8.5" height="8.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

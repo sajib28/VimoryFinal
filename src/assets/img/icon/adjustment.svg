@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71.739" height="71.739" viewBox="0 0 71.739 71.739">
+  <g id="adjustment" transform="translate(-6855.928 -1443.927)">
+    <g id="Group_2005" data-name="Group 2005" transform="translate(6855.927 1443.927)">
+      <path id="Path_1736" data-name="Path 1736" d="M71.739,71.739H0V0H71.739ZM1.722,70.018h68.3V1.722H1.722Z" fill="none"/>
+      <g id="Group_2004" data-name="Group 2004" transform="translate(16.63 21.268)">
+        <g id="Group_2002" data-name="Group 2002" transform="translate(0 23.055)">
+          <path id="Path_1737" data-name="Path 1737" d="M10.325,25.451a5.325,5.325,0,1,1,5.325-5.325A5.352,5.352,0,0,1,10.325,25.451Zm0-8.589a3.264,3.264,0,1,0,3.264,3.264A3.379,3.379,0,0,0,10.325,16.861Z" transform="translate(2.77 -14.8)" stroke="#000" stroke-width="1.5"/>
+          <rect id="Rectangle_1258" data-name="Rectangle 1258" width="19.927" height="2.061" transform="translate(21.364 4.295)" stroke="#000" stroke-width="1.5"/>
+          <rect id="Rectangle_1259" data-name="Rectangle 1259" width="4.81" height="2.061" transform="translate(0 4.295)" stroke="#000" stroke-width="1.5"/>
+        </g>
+        <g id="Group_2003" data-name="Group 2003">
+          <rect id="Rectangle_1260" data-name="Rectangle 1260" width="4.81" height="2.061" transform="translate(36.481 4.295)" stroke="#000" stroke-width="1.5"/>
+          <rect id="Rectangle_1261" data-name="Rectangle 1261" width="19.755" height="2.061" transform="translate(0 4.295)" stroke="#000" stroke-width="1.5"/>
+          <path id="Path_1738" data-name="Path 1738" d="M19.125,14.651a5.325,5.325,0,1,1,5.325-5.325A5.352,5.352,0,0,1,19.125,14.651Zm0-8.589a3.264,3.264,0,1,0,3.264,3.264A3.509,3.509,0,0,0,19.125,6.061Z" transform="translate(9.071 -4)" stroke="#000" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

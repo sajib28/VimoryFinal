@@ -1,0 +1,20 @@
+{
+  "short_name": "Vimory Application",
+  "name": "Vimory is designed to be your personal photo to video or slideshow stdio to make you a video superstar",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "vimory-logo.png",
+      "type": "image/png",
+      "sizes": "173x74"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0584D1",
+  "background_color": "#ffffff"
+}
